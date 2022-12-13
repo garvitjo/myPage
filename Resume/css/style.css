@@ -1,0 +1,572 @@
+/* different colors to change later*/
+:root {
+  --dark: #050B0D;
+  --blue_p: #4CC9F0;
+  --blue_s: #4895EF;
+  --red_p: #f72584;
+  --red_s: #B5179E;
+}
+
+body {
+  background-color: var(--dark);
+  font-family: 'Permanent Marker', cursive;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.bodyforindex{
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  grid-template-rows: 0.1fr 1fr 1fr ;
+  grid-template-areas:
+    'h h'
+    'c i'
+    'f f';
+}
+
+a{
+  color: var(--red_p);
+  text-shadow: 0 0 2px var(--red_s);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+#overlay{
+  display: none;
+}
+
+.header {
+  grid-area: h;
+  background-color: var(--dark);
+  border-radius: 40px;
+  box-shadow: 0 0 10px 5px var(--blue_s);
+  display: flex;
+  align-content: center;
+  margin: 3%;
+  padding: 10px 10px 20px 30px;
+}
+
+.titlename{
+  margin: auto  0;
+  flex: 1.2;
+}
+
+.name {
+  padding: 0;
+  font-size: 400%;
+  font-family: 'Permanent Marker', cursive;
+  margin: 0;
+  color: var(--red_p);
+  text-shadow: 0 0 30px var(--red_s);
+  letter-spacing: 4px;
+}
+
+.designation {
+  margin: 0;
+  padding: 0;
+  font-size: 200%;
+  color: var(--blue_p);
+  text-shadow: 0 0 15px var(--blue_s);
+  letter-spacing: 10px;
+}
+
+nav{
+  margin: auto;
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navigationbar .icon{
+  display: none;
+}
+
+
+img {
+  grid-area: i;
+  border-radius: 50%;
+  width: 90%;
+  margin: auto;
+}
+
+#myphoto {
+  position: absolute;
+  left: 80%;
+}
+
+
+.content {
+  grid-area: c;
+  margin: auto;
+  color: var(--blue_p);
+  text-shadow: 1px 1px 5px var(--blue_s);
+  padding: 6rem;
+}
+
+hr {
+  width: 10%;
+  border: none;
+  border-top: 6px dotted var(--blue_p);
+  text-shadow: 0 0 5px var(--blue_s);
+}
+
+/* ---------------------------------------------*******---------------- */
+/* THE DIVISION FOR CONTACT FORM */
+
+.footer {
+  padding: 50px 0;
+}
+
+/* SELECTION FORM */
+.contactflexcontainer {
+  grid-area: f;
+  display: flex;
+  justify-content: center;
+}
+
+/* CONTACT FORM */
+.contactform{
+  text-align: center;
+  flex: 1;
+  display: grid;
+  grid-template-columns: 0.2fr 0.3fr 1fr 0.2fr;
+  grid-template-rows: 0.3fr 0.5fr 0.5fr 1fr 0.5fr;
+  grid-template-areas: 'title title title title' '. l1 i1 .' '. l2 i2 .' '. l3 i3 .' '. submit submit .';
+  column-gap: 1.2em;
+}
+
+/* TITLE OF FORM */
+.contactform h2 {
+  margin: 10% auto;
+  color: var(--blue_p);
+  text-shadow: 0 0 2px var(--blue_s);
+  text-align: center;
+  grid-area: title;
+  font-size: 4vh;
+}
+
+label[for=name]{
+  grid-area: l1;
+}
+label[for=email]{
+  grid-area: l2;
+}
+label[for=message]{
+  grid-area: l3;
+}
+#name{
+  grid-area: i1;
+}
+#email{
+  grid-area: i2;
+}
+/*  ALL LABELS*/
+label {
+  padding: 0;
+  margin: auto 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: var(--red_p);
+  text-shadow: 0 0 5px var(--red_s);
+  text-align: right;
+}
+
+/* MESSAGE */
+
+label[for=message] {
+  position: relative;
+  bottom: 50px;
+}
+
+/* ALL INPUTS */
+input[type=text],
+input[type=email] {
+  margin: auto 0;
+  padding: 10px;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  width: 80%;
+  background: transparent;
+  border: none;
+  /* border-top: solid var(--blue_p); */
+  border-bottom: solid var(--blue_p);
+  transition: .3s;
+  color: white;
+}
+
+input[type=text]:focus,
+input[type=email]:focus {
+  box-shadow: 0 7px 10px -2px var(--blue_s);
+  outline: none;
+}
+
+/* MESSAHE TEXT AREA */
+textarea {
+  border: 0;
+  margin: auto 0;
+  padding: 10px;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  width: 80%;
+  resize: none;
+  background: none;
+  /* border-top: solid var(--blue_p); */
+  border-bottom: solid var(--blue_p);
+  transition: 0.3s;
+  color: white;
+  grid-area: i3;
+}
+
+textarea:focus {
+  box-shadow: 0 7px 10px -2px var(--blue_s);
+  outline: none;
+}
+
+/* SUBMIT BUTON */
+input[type=submit]{
+  margin: auto;
+  border-radius: 8px;
+  background: none;
+  border: none;
+  color: var(--red_p);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  padding: 6px;
+  grid-area: submit;
+}
+
+input[type=submit]:hover{
+  box-shadow: 0 2px 5px -2px var(--red_s);
+  box-shadow: 0 5px 10px 0 var(--red_s);
+}
+
+/* ICONS */
+.sociallist {
+  width: 40%;
+  padding-left: 40px;
+  align-self: center;
+  display: flex;
+}
+
+.sociallist li {
+  margin: 0 12%;
+  list-style-type: none;
+}
+
+.sociallist a {
+  font-size: 35px;
+  color: white;
+  position: relative;
+  bottom: 0px;
+}
+
+.sociallist a:hover {
+  bottom: 2px;
+  box-shadow: 0 10px 5px -2px var(--blue_s);
+}
+
+/* ---------------------------------------------*******---------------- */
+/* ---------------------------------------------*******---------------- */
+/* ---------------------------------------------*******---------------- */
+/* RESUME PAGE */
+.bodyforresume{
+  display: grid;
+  grid-template-areas:
+    'h h h h h h h h h h h h'
+    '. . t1 t1 t1 t1 t1 t1 h1 . . .'
+    '. . . h2 . . t2 t2 t2 t2 . .'
+    'f f f f f f f f f f f f';
+}
+
+
+/* WORK EXPERIENCE ENTIRE TABLE */
+.xptables {
+  grid-area: t1;
+  font-size: 1.5em;
+  margin: 4em;
+}
+
+/* HEAD TEXT */
+.xptables th {
+  box-shadow: 0 0 10px 2px var(--red_p);
+  padding: 10px 0 10px 0;
+  color: var(--red_p);
+  text-shadow: 0 0 5px var(--red_s);
+}
+
+/* REFERENCE TO THE FIRST COLUMN OF THE WORK EXPERIENCE */
+
+.xptables td:first-child {
+  width: 40%;
+  padding: 50px 0 0 20px;
+  color: var(--blue_p);
+  text-shadow: 0 0 5px var(--blue_s);
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* REFERENCE TO THE LAST COLUMN OF THE WORK EXPERIENCE */
+.xptables td:last-child {
+  padding: 50px 0 0 20px;
+  color: var(--blue_p);
+}
+
+/* TEXT */
+.workexperience {
+  grid-area: h1;
+  font-size: 5vw;
+  font-family: 'Permanent Marker', cursive;
+  color: var(--red_p);
+  text-shadow: 0 0 5px var(--red_s);
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+/* ---------------------------------------------*******---------------- */
+/* TABLE 2 */
+
+/*TEXT*/
+.skills {
+  grid-area: h2;
+  font-size: 5vw;
+  font-family: 'Permanent Marker', cursive;
+  color: var(--red_p);
+  text-shadow: 0 0 5px var(--red_s);
+  width: 50%;
+  margin: auto;
+}
+
+/* WORK EXPERIENCE ENTIRE TABLE */
+.skilltable {
+  grid-area: t2;
+  font-size: 1.5em;
+  margin: 4em;
+}
+
+.skilltable th {
+  box-shadow: 0 0 10px 2px var(--red_p);
+  padding: 10px 0 10px 0;
+  color: var(--red_p);
+  text-shadow: 0 0 5px var(--red_s);
+}
+
+/* REFERENCE TO THE FIRST COLUMN OF THE WORK EXPERIENCE */
+
+.skilltable td:first-child {
+  width: 40%;
+  padding: 50px 0 0 20px;
+  color: var(--blue_p);
+  text-shadow: 0 0 5px var(--blue_s);
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* REFERENCE TO THE LAST COLUMN OF THE WORK EXPERIENCE */
+.skilltable td:last-child {
+  padding: 50px 0 0 100px;
+  color: var(--blue_p);
+}
+
+/* ---------------------------------------------*******---------------- */
+/* ---------------------------------------------*******---------------- */
+/* ---------------------------------------------*******---------------- */
+/* PROJECTS PAGE */
+.bodyforprojects{
+  margin: 20% auto;
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  align-content: center;
+  justify-items: center;
+  color: var(--blue_p);
+  text-shadow: 0 2px 2px var(--blue_s) ;
+}
+.bodyforprojects h1{
+  margin: 20px 0;
+  padding: 0;
+  width: 100%;
+}
+.bodyforprojects h2{
+  margin: 10px 0;
+  padding: 0;
+  width: 100%;
+}
+.bodyforprojects a{
+  margin: 30px auto;
+  padding: 5px;
+  outline: none;
+  text-shadow: none;
+}
+
+
+/* ------------------------------***************--------------------------------- */
+/* ---------------------********** MEDIA QUERY ************---------------------- */
+/* ------------------------------***************--------------------------------- */
+
+@media only screen and (max-width: 1110px) {
+
+  /* For tablets */
+  .header{
+    font-size: 74%;
+  }
+
+  .content{
+    padding: 20px;
+  }
+
+  .contactflexcontainer{
+    flex-flow: column;
+  }
+  .sociallist{
+    margin: 80px auto;
+    padding: 0;
+  }
+  /* ----------*********----------- */
+  /* -----------RESUME---------- */
+  /* ----------*********----------- */
+  .bodyforresume{
+    
+    grid-template-areas:
+      'h'
+      't1'
+      't2'
+      'f';
+  }
+
+  .xptables{
+    font-size: 2vw;
+  }
+  .skilltable{
+    font-size: 2vw;
+  }
+
+  .skills{
+    display: none;
+  }
+
+  .workexperience{
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 780px) {
+  /* For Phones */
+
+
+  /* ----------*********----------- */
+  /* -----------open menu---------- */
+  /* ----------*********----------- */
+  #overlay{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(0, 0, 0, 0.8); 
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+  }
+/*  MENU  */
+  .overlay-menu{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    font-size: 4vw;
+    height: 50%;
+    margin: 50% auto;
+  }
+  /*  LINKS OF MENU   */
+  .overlay-menu a{
+    flex: auto;
+  }
+/*  CLOSE BUTTON   */
+  #overlay .closebtn{
+    position: relative;
+    top: 0;
+    right: 0;
+    float: right;
+    margin: 30px;
+    font-size: 50px;
+  }
+
+  .navigationbar a:not(.icon){
+    display: none;
+  }
+  .titlename{
+    text-align: left;
+    flex: 2;
+  }
+
+  .navigationbar .icon{
+    display: inline-block;
+  }
+
+  .nav{
+    flex-basis: 0;
+  }
+
+  .bodyforindex{
+    grid-template-columns: auto;
+    grid-template-rows: 0.1fr 0.5fr 0.4fr 1fr;
+    grid-template-areas:
+      'h'
+      'i'
+      'c'
+      'f';
+  }
+
+  .bodyforindex img{
+    width: 70%;
+    margin: 10% auto;
+  }
+
+  .contactform{
+    grid-template-columns: 0.1fr 0.2fr 2fr 0.1fr;
+  }
+  .contactform h2{
+    font-size: 5vw;
+  }
+
+  .contactform label{
+    font-size: 4vw;
+  }
+
+  .contactform input, textarea{
+    font-size: 3.5vw;
+  }
+  .name{
+    font-size: 7vw;
+    letter-spacing: 2px;
+  }
+  .designation{
+    font-size: 6vw;
+    letter-spacing: 0px;
+  }
+
+  .content{
+    margin-bottom: 100px;
+    padding: 0 2rem;
+    text-align: justify;
+  }
+
+  /* ----------*********----------- */
+  /* -----------RESUME---------- */
+  /* ----------*********----------- */
+  .xptables{
+    margin: 10% 2%;
+    font-size: 3vw;
+  }
+  .skilltable{
+    margin: 10% 2%;
+    font-size: 3vw;
+  }
+
+
+}

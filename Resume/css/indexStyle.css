@@ -1,0 +1,289 @@
+/* different colors to change later*/
+:root {
+    --dark: #050B0D;
+    --blue_p: #4CC9F0;
+    --blue_s: #4895EF;
+    --red_p: #F72585;
+    --red_s: #B5179E;
+  }
+
+  body{
+      background-color: var(--dark);
+      font-family: 'Permanent Marker', cursive;
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: white;
+  }
+
+  .header{
+      background-color: var(--dark);
+      border-radius: 40px;
+      margin: 15px;
+      padding: 0 0 20px 40px;
+      position: relative;
+      box-shadow: 0 0 10px 5px var(--blue_s);
+
+  }
+
+  .name{
+      padding: 0;
+      font-size: 400%;
+      font-family: 'Permanent Marker', cursive;
+      margin: 0;
+      color:var(--red_p);
+      text-shadow: 0 0 30px var(--red_s);
+      letter-spacing: 4px;
+  }
+
+  .designation{
+      margin: 0;
+      padding: 0;
+      font-size: 200%;
+      color: var(--blue_p);
+      text-shadow: 0 0 15px var(--blue_s);
+      letter-spacing: 10px;
+  }
+
+  .header img{
+      border-radius: 50%;
+      position: absolute;
+      top : 190%;
+      right : 5%;
+      width: 30%;
+  }
+
+  .content{
+      margin: 10% 40% 10% 5%;
+      color:var(--blue_p);
+      text-shadow: 1px 1px 5px var(--blue_s);
+  }
+
+  hr{
+      width: 10%;
+      border: none;
+      border-top: 6px dotted var(--blue_p);
+      text-shadow: 0 0 5px var(--blue_s);
+  }
+
+/* ---------------------------------------------*******---------------- */
+
+/* DIVISION FOR XP TABLE AND TEXT */
+  .div1{
+     padding: 100px 0 100px 0;
+  }
+
+/* WORK EXPERIENCE ENTIRE TABLE */
+  .xptables{
+    display: inline-block;
+    font-size: 20px;
+    width: 55%;
+  }
+/* HEAD TEXT */
+  .xptables th{
+    box-shadow: 0  0  10px 2px var(--red_p);
+    padding: 10px 0 10px 0;
+    color: var(--red_p);
+    text-shadow: 0 0 5px var(--red_s);
+  }
+
+/* REFERENCE TO THE FIRST COLUMN OF THE WORK EXPERIENCE */
+
+  .xptables td:first-child{
+      width: 40%;
+      padding: 50px 0 0 20px ;
+      color: var(--blue_p);
+      text-shadow: 0 0 5px var(--blue_s);
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+/* REFERENCE TO THE LAST COLUMN OF THE WORK EXPERIENCE */
+.xptables td:last-child{
+    padding: 50px 0 0 20px ;
+    color: var(--blue_p);
+}
+/* TEXT */
+  .workexperience{
+    display: inline-block;
+    font-size: 300%;
+    font-family: 'Permanent Marker', cursive;
+    color: var(--red_p);
+    text-shadow: 0 0 5px var(--red_s);
+    text-align: center;
+    width: 40%;
+    position: relative;
+    left: 20px;
+    bottom: 250px;
+  }
+/* ---------------------------------------------*******---------------- */
+  /* TABLE 2 */
+.div2{
+    padding: 100px 0 100px 0;
+}
+
+.skills{
+    display: inline-block;
+    font-size: 300%;
+    font-family: 'Permanent Marker', cursive;
+    color: var(--red_p);
+    text-shadow: 0 0 5px var(--red_s);
+    text-align: center;
+    width: 50%;
+    position: relative;
+    bottom: 200px;
+}
+
+/* WORK EXPERIENCE ENTIRE TABLE */
+.skilltable{
+    display: inline-block;
+    font-size: 20px;
+    width: 45%;
+}
+
+.skilltable th{
+  box-shadow: 0  0  10px 2px var(--red_p);
+  padding: 10px 0 10px 0;
+  color: var(--red_p);
+  text-shadow: 0 0 5px var(--red_s);
+}
+
+/* REFERENCE TO THE FIRST COLUMN OF THE WORK EXPERIENCE */
+
+.skilltable td:first-child{
+    width: 40%;
+    padding: 50px 0 0 20px ;
+    color: var(--blue_p);
+    text-shadow: 0 0 5px var(--blue_s);
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+/* REFERENCE TO THE LAST COLUMN OF THE WORK EXPERIENCE */
+.skilltable td:last-child{
+  padding: 50px 0 0 100px ;
+  color: var(--blue_p);
+}
+
+/* THE DIVISION FOR CONTACT FORM */
+
+.footer{
+    padding: 50px 0;
+}
+
+/* SELECTION FORM */
+.contactform{
+    display: inline-block;
+  width: 50%;
+  margin: 0;
+  
+}
+/* TITLE OF FORM */
+.contactform h2{
+    color: var(--blue_p);
+    text-shadow: 0 0 2px var(--blue_s);
+    text-align: center;  
+    padding: 50px 0;
+    margin: 0;
+}
+/*  ALL LABELS*/
+label{
+    padding: 30px;
+    margin: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--red_p);
+    text-shadow: 0 0 5px var(--red_s);
+}
+/* MESSAGE */
+
+label[for=message]{
+    position: relative;
+    bottom: 225px;
+}
+
+/* ALL INPUTS */
+input[type=text], input[type=email]{
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    width: 300px;
+    background: transparent;
+    border: none;
+    /* border-top: solid var(--blue_p); */
+    border-bottom: solid var(--blue_p);
+    transition: .3s;
+    color: white;
+}
+
+input[type=text]:focus,input[type=email]:focus{
+    box-shadow: 0 7px 10px -2px var(--blue_s);
+    outline: none;
+}
+
+/* MESSAHE TEXT AREA */
+textarea{
+    border: 0;
+    margin: 20px 0 20px 0;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    width: 300px;
+    resize: none;
+    background: none;
+    /* border-top: solid var(--blue_p); */
+    border-bottom: solid var(--blue_p);
+    transition: 0.3s;
+    color: white;
+}
+
+textarea:focus{
+    box-shadow: 0 7px 10px -2px var(--blue_s);
+    outline: none;
+}
+
+/* SUBMIT BUTON */
+input[type=submit]{
+    width: auto;
+    margin: 40px 300px 0 300px;
+    border-radius: 8px;
+    background: none;
+    border: none;
+    color: var(--red_p);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    
+}
+
+input[type=submit]:hover{
+    box-shadow: 0 2px 5px -2px var(--red_s);
+    box-shadow: 0 5px 10px 0 var(--red_s);
+}
+
+/* ICONS */
+.sociallist{
+  display: inline-block;
+  width: 40%;
+  padding-left: 40px;
+  position: relative;
+  bottom: 350px;
+}
+
+.sociallist li{
+  display: inline-block;
+  margin: 0 12%;
+}
+
+.sociallist a{
+  font-size: 35px;
+  color: white;
+  position: relative;
+  bottom: 0px;
+}
+
+.sociallist a:hover{
+  bottom: 2px;
+  box-shadow: 0 10px 5px -2px var(--blue_s);
+}

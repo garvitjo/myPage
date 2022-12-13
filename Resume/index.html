@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garvit Joshi</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b55f608e0f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="bodyforindex">
+    <!-- Name and designation at the top of website -->
+    <div class = "header">
+        <div class="titlename">
+            <h1 class = "name">Garvit Joshi</h1>
+            <h1 class = "designation">Creative Director</h1>
+        </div>
+        <!-- NAVIGATION BAR -->
+        <nav class="navigationbar">
+            <a href="html/resume.html">Resume</a>
+            <a href="html/projects.html">Projects</a>
+            <a href="#contactform">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="openNav()">
+                <i class="fa fa-bars"></i>
+              </a>
+        </nav>
+       
+    </div>
+    <!-- overlay for mobile phones -->
+    <div id="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-menu">
+            <a href="html/resume.html">Resume</a>
+            <a href="html/projects.html">Projects</a>
+            <a href="#contactform" onClick="closeNav()">Contact</a>
+        </div>
+    </div>
+    <!-- overlay for mobile phones -->
+
+     <!-- my photo must come of the top right -->
+    <img src="img\img 1.jpg" alt="This is me">
+
+
+    <!-- add about me thoda sa and some links to the different cool things in website/ updates and all -->
+    <div class = "content">
+        <p>Lorem ipsum dligendi praesentium laborum minima eveniet optio! Consequuntur omnis magni accusantium consequatur, nulla odit accusamus dolore distinctio! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat est, consequuntur repellat dolor odio saepe porro doloribus, molestiae cumque aut error a ullam magni consectetur sapiente veritatis, consequatur eaque nisi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis nihil labore tenetur deserunt blanditiis temporibus itaque, expedita quidem neque delectus natus fuga dicta, nobis sapiente ex ad esse laborum similique. Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem eaque maxime at distinctio reprehenderit, fugit itaque modi hic minus quas nobis quis eum perspiciatis nulla similique sed. Iure, in labore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, doloremque. Adipisci recusandae nesciunt dolores magni tempora velit modi exercitationem, vitae sint nihil quo facilis laborum! Magni ea quo assumenda nostrum!</p>
+    </div>
+
+
+<!-- Resume -->
+   <!-- contact information always on the bottom of the page, show more social media sites here -->
+   <div class="contactflexcontainer">
+
+       <form action="" class="contactform" autocomplete="off" id="contactform">
+
+           <h2>I will be happy to recieve your E-mail</h2>
+
+           <label for="name">Name</label>
+           <input type="text" id="name" name="name"><br>
+
+           <label for="email">E-mail</label>
+           <input type="email" id="email" name="email"><br>
+
+           <label for="message">Message</label><textarea name="message" rows="10"></textarea><br>
+
+           <input type="submit" value="Submit">
+
+       </form>
+
+       <ul class="sociallist">
+           <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+           <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+           <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+
+       </ul>
+   </div>
+   </div>
+   </body>
+</html>
