@@ -1,0 +1,366 @@
+﻿#Version 3
+#Begin-Auto-Completion 
+AutoCompletion/Scene/Enabled:True
+AutoCompletion/Scene/Items:0
+AutoCompletion/Character/Enabled:True
+AutoCompletion/Character/Items:0
+AutoCompletion/Transition/Enabled:True
+AutoCompletion/Transition/Items:12
+AutoCompletion/Transition/Items/1:BACK TO:
+AutoCompletion/Transition/Items/2:CROSSFADE:
+AutoCompletion/Transition/Items/3:CUT TO:
+AutoCompletion/Transition/Items/4:DISSOLVE TO:
+AutoCompletion/Transition/Items/5:FADE IN:
+AutoCompletion/Transition/Items/6:FADE OUT
+AutoCompletion/Transition/Items/7:FADE TO BLACK
+AutoCompletion/Transition/Items/8:JUMP CUT TO:
+AutoCompletion/Transition/Items/9:MATCH CUT TO:
+AutoCompletion/Transition/Items/10:SLOW FADE TO BLACK
+AutoCompletion/Transition/Items/11:SMASH CUT TO:
+AutoCompletion/Transition/Items/12:TIME CUT:
+#End-Auto-Completion 
+#Begin-Config 
+FontSize:12
+Margin/Bottom:25.40
+Margin/Left:25.00
+Margin/Right:25.00
+Margin/Top:12.70
+Paper/Height:297.00
+Paper/Width:210.00
+PageBreakActionLines:2
+PageBreakDialogueLines:2
+SceneContinueds:False
+SceneContinuedIndent:45
+ShowSceneNumbers:False
+IncludeTOC:True
+ShowTOC:True
+OpenOnCurrentPage:True
+RemoveNotes:False
+OutlineNotes:True
+ShowMargins:False
+ShowLineNumbers:False
+Cursor/Line:189
+Cursor/Column:0
+String/MoreDialogue:(MORE)
+String/ContinuedPageEnd:(CONTINUED)
+String/ContinuedPageStart:CONTINUED:
+String/DialogueContinued: (cont'd)
+Element/Scene/BeforeSpacing:10
+Element/Scene/IntraSpacing:0
+Element/Scene/Indent:0
+Element/Scene/Width:60
+Element/Scene/Screen/AllCaps:True
+Element/Scene/Screen/Bold:True
+Element/Scene/Screen/Italic:False
+Element/Scene/Screen/Underlined:False
+Element/Scene/Export/AllCaps:True
+Element/Scene/Export/Bold:False
+Element/Scene/Export/Italic:False
+Element/Scene/Export/Underlined:False
+Element/Action/BeforeSpacing:10
+Element/Action/IntraSpacing:0
+Element/Action/Indent:0
+Element/Action/Width:60
+Element/Action/Screen/AllCaps:False
+Element/Action/Screen/Bold:False
+Element/Action/Screen/Italic:False
+Element/Action/Screen/Underlined:False
+Element/Action/Export/AllCaps:False
+Element/Action/Export/Bold:False
+Element/Action/Export/Italic:False
+Element/Action/Export/Underlined:False
+Element/Character/BeforeSpacing:10
+Element/Character/IntraSpacing:0
+Element/Character/Indent:22
+Element/Character/Width:40
+Element/Character/Screen/AllCaps:True
+Element/Character/Screen/Bold:False
+Element/Character/Screen/Italic:False
+Element/Character/Screen/Underlined:False
+Element/Character/Export/AllCaps:True
+Element/Character/Export/Bold:False
+Element/Character/Export/Italic:False
+Element/Character/Export/Underlined:False
+Element/Dialogue/BeforeSpacing:0
+Element/Dialogue/IntraSpacing:0
+Element/Dialogue/Indent:10
+Element/Dialogue/Width:45
+Element/Dialogue/Screen/AllCaps:False
+Element/Dialogue/Screen/Bold:False
+Element/Dialogue/Screen/Italic:False
+Element/Dialogue/Screen/Underlined:False
+Element/Dialogue/Export/AllCaps:False
+Element/Dialogue/Export/Bold:False
+Element/Dialogue/Export/Italic:False
+Element/Dialogue/Export/Underlined:False
+Element/Parenthetical/BeforeSpacing:0
+Element/Parenthetical/IntraSpacing:0
+Element/Parenthetical/Indent:16
+Element/Parenthetical/Width:25
+Element/Parenthetical/Screen/AllCaps:False
+Element/Parenthetical/Screen/Bold:False
+Element/Parenthetical/Screen/Italic:False
+Element/Parenthetical/Screen/Underlined:False
+Element/Parenthetical/Export/AllCaps:False
+Element/Parenthetical/Export/Bold:False
+Element/Parenthetical/Export/Italic:False
+Element/Parenthetical/Export/Underlined:False
+Element/Transition/BeforeSpacing:10
+Element/Transition/IntraSpacing:0
+Element/Transition/Indent:45
+Element/Transition/Width:20
+Element/Transition/Screen/AllCaps:True
+Element/Transition/Screen/Bold:False
+Element/Transition/Screen/Italic:False
+Element/Transition/Screen/Underlined:False
+Element/Transition/Export/AllCaps:True
+Element/Transition/Export/Bold:False
+Element/Transition/Export/Italic:False
+Element/Transition/Export/Underlined:False
+Element/Shot/BeforeSpacing:10
+Element/Shot/IntraSpacing:0
+Element/Shot/Indent:0
+Element/Shot/Width:60
+Element/Shot/Screen/AllCaps:True
+Element/Shot/Screen/Bold:False
+Element/Shot/Screen/Italic:False
+Element/Shot/Screen/Underlined:False
+Element/Shot/Export/AllCaps:True
+Element/Shot/Export/Bold:False
+Element/Shot/Export/Italic:False
+Element/Shot/Export/Underlined:False
+Element/Note/BeforeSpacing:10
+Element/Note/IntraSpacing:0
+Element/Note/Indent:5
+Element/Note/Width:55
+Element/Note/Screen/AllCaps:False
+Element/Note/Screen/Bold:False
+Element/Note/Screen/Italic:True
+Element/Note/Screen/Underlined:False
+Element/Note/Export/AllCaps:False
+Element/Note/Export/Bold:False
+Element/Note/Export/Italic:True
+Element/Note/Export/Underlined:False
+Element/Act break/BeforeSpacing:10
+Element/Act break/IntraSpacing:0
+Element/Act break/Indent:25
+Element/Act break/Width:10
+Element/Act break/Screen/AllCaps:True
+Element/Act break/Screen/Bold:True
+Element/Act break/Screen/Italic:False
+Element/Act break/Screen/Underlined:True
+Element/Act break/Export/AllCaps:True
+Element/Act break/Export/Bold:False
+Element/Act break/Export/Italic:False
+Element/Act break/Export/Underlined:True
+Font/Bold-Italic/Name:
+Font/Bold-Italic/Filename:
+Font/Bold/Name:
+Font/Bold/Filename:
+Font/Italic/Name:
+Font/Italic/Filename:
+Font/Normal/Name:
+Font/Normal/Filename:
+#End-Config 
+#Begin-Locations 
+Locations:0
+#End-Locations 
+#Begin-Spell-Checker-Dict 
+Words:0
+#End-Spell-Checker-Dict 
+#Title-String 0.000000,105.000000,24,cb,Helvetica,,Boeing-Boeing
+#Title-String 0.000000,120.460000,12,c,Courier,,Marc Camoletti and Beverly Cross
+#Title-String 15.000000,248.460000,12,,Courier,,Adapted by Garvit Joshi
+#Header-String 1,0,r,,${PAGE}.
+#Header-Empty-Lines 1
+#Start-Script 
+..Boeing-Boeing: Marc camoletti and beverley cross.
+..Adapter in hindi by Garvit Joshi.
+..ACT-I
+._Natasha
+>:Ayaan, tumko kya lagta hai, mere pas ek aur
+.:paratha khane ka time hai?
+._Ayaan
+>((apni watch ki taraf
+.(dekhta hai)
+>:Haa haa.. Agar tum thoda jaldi karo toh ek
+.:aur ka hona toh chahiye.. Babu!!
+._NATASHA
+>:Babu ke haath ke parathe kitne zyada achche
+.:hai, haina?
+._Babu
+.:Aapne bulaya sir?
+._AYAAN
+.:Babu, ek aur paratha le aao
+._BABU
+.:Madam ke liye?
+._NATASHA
+>:Haa babu, jaldi karo warna mera plane miss ho
+.:jayega.
+._BABU
+>:Theek hai laya, but ye sab ab asaan nhi hai
+.:theek hai?
+._AYAAN
+.:Kya? Kya kaha?
+._BABU
+.:Kuch nhi.. (exits to kitchen)
+._NATASHA
+.:Ye hamesha itne bure mood mai kyun rehte hai?
+._AYAAN
+>:Nhi nhi babe.. Wo bas unka tareeka hai, dont
+.:worry!
+._NATASHA
+>:I do worry! Agar esa hi chalta raha toh inko
+.:nikalna padega
+._AYAAN
+.:Lekin kyun?
+._NATASHA
+>:Mujhe lagta hai wo mujhe bilkul pasand nhi
+.:karte
+._AYAAN
+.:Aree nhi jaan, esa kuch b nhi hai.
+._NATASHA
+.:Time kitna hora hai jaan?
+._AYAAN
+.:10 bjkr 15 minute
+._NATASHA
+>:Itni jaldi? Tumhare saath rehti hun toh time
+.:ka pata hi nhi chalta.
+._AYAAN
+.:Aww.. Aye haye meri jaan
+._NATASHA
+.:Tumhare liye b esa hi hai na?
+._AYAAN
+.:Haa.. Haa bilkul haa
+._NATASHA
+>:Aur jab mai tumse duur chali hoti hon toh
+.:time khicha khicha lagta hai?
+._AYAAN
+.:Haa ek dum! 4 ghante b 4 saal jese lagte hai
+._BABU
+.:Madam! Aapka paratha.
+._NATASHA
+.:Thank you babu!
+._BABU
+.:Aur kuch b chahiye?
+._AYAAN
+>:Haa babu, mere liye ek coffee, aur.. Jaan
+.:tumhare liye orange juice?
+._NATASHA
+>:Nhi Ayaan, sahi mai ab mera pait bhar gya
+.:hai.
+._BABU
+.:Huh! Bhagwaan ka bahut bahut sukriya. (exits)
+._NATASHA
+.:Dekha tumne! Inko mujhse kuch toh dikkat hai.
+._AYAAN
+.:Jaan..
+._NATASHA
+>:Dekho na... Jab bhi mai ghar aati hun, ye
+>:hamesha esi gusse mai rehte hai, jab mai yaha
+>:hoti hun tb thoda theek hote hai wrna jaane k
+.:time par firse gussail ho jate hai.
+._AYAAN
+.:Aree baba wo bas sad honge ki tum jaari ho.
+._NATASHA
+.:Kyun? Mai tumhari fiancee hun bas issliye?
+._AYAAN
+.:Haa.. Haa
+._NATASHA
+>:Toh agar mai hamesha hi yaha rehti toh unko
+.:dikkat nhi hoti?
+._AYAAN
+>:Bilkul! Tab toh ham sab bilkul khush hote,
+.:haina? (romance)
+._NATASHA
+>:Chalo ab mereko tayaar hone do, wrna mera
+.:plane chuut jayega.
+._AYAAN
+.:Nhi nhi usse kaam nhi chalega.
+._NATASHA
+.:Hmm.. Bura hoga na?
+._AYAAN
+>:Kaafi bura baby. Umm.. Jaan iss baar tum kab
+.:wapas aaogi?
+._NATASHA
+>:Well.. Aaj saturday hai, mai Bombay
+>:pahuchungi 2 bje.. Fir waha se delhi and then
+.:waha se wapas..
+._AYAAN
+.:Jaan banglore wapas kab aaogi?
+._NATASHA
+>:Umm monday morning ko, and then wednesday ko
+.:next flight.
+._AYAAN
+.((notebook mai likhta hai)
+>:Monday monday.. Hmm ok.. Monday ko kitne baje
+.:darling?
+._NATASHA
+.:Umm subah 6:30 ke aas pas..
+._AYAAN
+>:Excellent!! Toh mtlb chahe kuch b ho jaye..
+.:Tum monday 6:30 se pehle nhi aaogi na?
+._NATASHA
+.:Haa
+._AYAAN
+.:Good good good
+._NATASHA
+>:Its very sweet! Tum hamesha kese har cheez
+.:note krke rakhte ho
+._AYAAN
+.:Wo toh darling taaki mai mix up na kr du.
+._NATASHA
+.:Hmm.. Kya mixup?
+._AYAAN
+>:Business meetings babe, itna sara kaam rehta
+>:hai, mai koshish krunga ki sara kaam monday
+>:se pehle ho jaye and fir monday se wednesday
+.:mai tumhare saath time spend kr payun.
+._NATASHA
+.:Aww! Tum bahut cute ho!
+._AYAAN
+.:Haina! Chalo chalo and jyada der nhi karo
+._NATASHA
+.:Tum mereko bhagana chahte ho?
+._AYAAN
+>:Nhi babe, mereko b achcha nhi lagta tumko
+.:jata dekh, leking plane miss ho gya toh
+._BABU
+.((enters with coffee)
+.:Ye lo tumhara coffee
+._AYAAN
+.:Thank you babu
+._NATASHA
+.:Babu! Mera ek kaam karoge?
+._BABU
+.:Depend krta hai
+._NATASHA
+>:Aree chota sa kaam hai, Mere ayaan ka achche
+>:se dhyaan rakhna monday tk, jab tak mai aa
+.:nhi jati
+._BABU
+>:Ji ma'am mai puri koshish karunga, but ab ye
+>:bade bachche ho gye hai, apna khayaal khud
+.:rakh hi sakte hai.
+._NATASHA
+>:Haa but dil se toh abhi b chota bachcha hi
+.:hai, haina cutu
+._BABU
+>:Wo sab toh madam mereko nhi pata. Ayaan sir
+>:jese kam hi log hote hai, inka toh kya hi
+.:kehna?
+._AYAAN
+.:Haa babu thank you, itna kaafi hai ok?
+._NATASHA
+>:Dekho na jaan ye tumhari kitni tareef karte
+.:hai
+._BABU
+>:Ma'am mai toh sir ki zindagi bhar tareef kr
+.:skta hun.
+._NATASHA
+>:Bas bas itni bhi tareef mat kro wrna tumko b
+>:isse pyaar ho jayega and fir mai bahut
+.:jealous ho jaungi.
+._BABU
+.:Huh! Mujhe nhi lagta istak baat aayegi
+._
